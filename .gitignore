@@ -1,0 +1,100 @@
+# Jekyll build directory
+_site/
+
+# Bundler dependencies
+.bundle/
+vendor/bundle/
+
+# Jekyll cache
+.jekyll-cache/
+.sass-cache/
+
+# Sass generated files
+*.css.map
+*.css.sass-cache
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package distribution #
+########################
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ruby specific #
+#################
+# Ignore the Gemfile.lock if you prefer to manage dependencies differently
+# Gemfile.lock
+
+# Ignore environment variables file (if used)
+.env
+
+# Ignore all compiled Ruby files
+*.rbc
+/.config
+/.ruby-version
+/.ruby-gemset
+
+# IDE and Editor folders/files #
+###############################
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, RubyMine, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+*.atom/
+
+# Emacs
+*~
+\#*\#
+
+# Vim
+*.swp
+*.swo
+*.swn
+Session.vim
+
+# Others
+*.bak
+*.tmp
+*.temp
